@@ -7,7 +7,7 @@ dbname <- "mydatabase.sqlite"
 # Define the Shiny UI
 ui <- fluidPage(
   
-  
+  # title panel
   titlePanel(tags$h1("FOMO NOMO", style = "font-family: sans-serif;", tags$hr(style = "margin-bottom: 10px;"))),
   
   # Two-column layout with input fields on the left and data table on the right
